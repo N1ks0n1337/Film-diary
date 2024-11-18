@@ -1,0 +1,30 @@
+.full-stars {
+    text-align: center;
+}
+.full-stars .rating-group {
+    display: inline-flex;
+}
+.full-stars input {
+    position: absolute;
+    left: -9999px;
+}
+.full-stars label {
+    margin: 0;
+    cursor: pointer;
+}
+.full-stars label svg {
+    margin: 2px;
+    height: 20px; /* Уменьшено с 40px до 30px */
+    width: 20px; /* Уменьшено с 40px до 30px */
+    fill: #337AB7;
+    transition: fill 0.3s;
+}
+.full-stars input:checked ~ label svg {
+    fill: #BFE2FF;
+}
+.full-stars .rating-group:hover label svg {
+    fill: #337AB7;
+}
+.full-stars .rating-group input:hover ~ label svg {
+    fill: #BFE2FF;
+}

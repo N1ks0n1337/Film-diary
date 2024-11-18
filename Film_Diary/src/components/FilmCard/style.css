@@ -1,0 +1,45 @@
+
+.film-card{
+display: flex;
+width: 100%;
+max-width: 375px;
+height: auto;
+padding: 16px 16px;
+gap:4px;
+
+}
+ 
+.film-card-image-block{
+   width:100px;
+   height: 100%;
+}
+.film-card-image{
+    width:100px;
+    height: auto;
+}
+
+.film-card-text-block{
+    width: 210px;
+height:auto;
+
+}
+
+.film-card-title{
+    font-size: 18px;
+}
+
+.film-card-info{
+display:flex;
+padding:0 0;
+gap:22px;
+}
+
+.film-class-info-unit{
+    font-size: 13px;
+}
+
+.film-class-descr{
+    font-size: 15px;
+    line-height: 16px;
+    padding-top: 15px;
+}
